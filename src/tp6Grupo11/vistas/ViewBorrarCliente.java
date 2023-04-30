@@ -69,14 +69,14 @@ public class ViewBorrarCliente extends javax.swing.JInternalFrame {
             }
         });
 
-        jbLupa.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tp6/vistas/lupaOriginal.png"))); // NOI18N
+        jbLupa.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tp6Grupo11/vistas/lupaOriginal.png"))); // NOI18N
         jbLupa.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jbLupaActionPerformed(evt);
             }
         });
 
-        jbBorrar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tp6/vistas/borarr3.png"))); // NOI18N
+        jbBorrar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tp6Grupo11/vistas/borarr3.png"))); // NOI18N
         jbBorrar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jbBorrarActionPerformed(evt);
@@ -168,7 +168,7 @@ public class ViewBorrarCliente extends javax.swing.JInternalFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jbBorrar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(23, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();

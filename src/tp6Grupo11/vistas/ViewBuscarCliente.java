@@ -76,7 +76,7 @@ public class ViewBuscarCliente extends javax.swing.JInternalFrame {
             }
         });
 
-        jbLupa.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tp6/vistas/lupaOriginal.png"))); // NOI18N
+        jbLupa.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tp6Grupo11/vistas/lupaOriginal.png"))); // NOI18N
         jbLupa.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jbLupaActionPerformed(evt);

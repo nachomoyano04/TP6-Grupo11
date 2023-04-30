@@ -172,7 +172,7 @@
     <Component class="javax.swing.JButton" name="jbLupa">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/tp6/vistas/lupaOriginal.png"/>
+          <Image iconType="3" name="/tp6Grupo11/vistas/lupaOriginal.png"/>
         </Property>
       </Properties>
       <Events>
