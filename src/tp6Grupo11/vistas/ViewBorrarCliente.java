@@ -193,6 +193,12 @@ public class ViewBorrarCliente extends javax.swing.JInternalFrame {
         // TODO add your handling code here:
         
         Menu.miDirectorio.borrarCliente(jtTelefono.getText());
+        jtNombre.setText("");
+        jtApellido.setText("");
+        jtCiudad.setText("");
+        jtDni.setText("");
+        jtDireccion.setText("");
+        jtTelefono.setText("");
         
     }//GEN-LAST:event_jbBorrarActionPerformed
 

@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import javax.swing.JOptionPane;
 
 public class DirectorioTelefonico {
     
@@ -47,7 +48,12 @@ public class DirectorioTelefonico {
     }
     
     public void borrarCliente(String telefono) {
-        clientesPorTelefono.remove(telefono);
+        Cliente aux = clientesPorTelefono.remove(telefono);
+        if (aux==null) {
+            JOptionPane.showMessageDialog(null,"Dato no Encontrado");
+        } else {
+            JOptionPane.showMessageDialog(null,"Cliente eliminado");
+        }
     }
-    
 }
+    
