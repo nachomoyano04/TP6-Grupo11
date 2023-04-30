@@ -1,6 +1,6 @@
-package clases;
+package tp6.grupo11;
 
-class Cliente {
+public class Cliente {
     
     private String dni;
     private String nombre;

@@ -1,4 +1,4 @@
-package clases;
+package tp6.grupo11;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -7,16 +7,20 @@ import java.util.Map;
 
 public class DirectorioTelefonico {
     
-    private Map<String, Cliente> clientesPorTelefono;  // Mapa que relaciona el número de teléfono con el cliente correspondiente
+    private Map<String,Cliente> clientesPorTelefono;  // Mapa que relaciona el número de teléfono con el cliente correspondiente
     
     public DirectorioTelefonico() {
         clientesPorTelefono = new HashMap<>();
     }
     
-    public void agregarCliente(String dni, String nombre, String apellido, String ciudad, String direccion, String telefono) {
-        Cliente cliente = new Cliente(dni, nombre, apellido, ciudad, direccion, telefono);
-        clientesPorTelefono.put(telefono, cliente);
-    }
+    public boolean agregarCliente(String telefono, Cliente c) {
+        boolean agregado = false;
+        if (!clientesPorTelefono.containsKey(telefono)) {
+            clientesPorTelefono.put(telefono, c);
+            agregado = true;
+        }
+        return agregado;
+    }   
     
     public Cliente buscarCliente(String telefono) {
         return clientesPorTelefono.get(telefono);
